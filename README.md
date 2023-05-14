@@ -103,3 +103,7 @@ Then:
 <p style="text-align: center;">
 $$\Large V=\frac{1}{σ}, f_i=2σE^2, F_i=-r_i 2σE^2 h^2$$
 </p>
+
+![Search](image/ris1.jpg)
+![Search](image/ris2.png)
+![Search](image/ris3.png)
