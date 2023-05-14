@@ -15,18 +15,20 @@ and the LRModel class is used to initialize the linear regression model.
 
 ## Plasmatron class:
 
-### Plasmatron class
-
 The Plasmatron class is used to set the parameters of the plasma torch model. In the **__init__** method, the default values of the model parameters are initialized: the radius of the plasma torch R, the magnetic field at the end H_R, the number of steps N, the step h, the initial conductivity value sigma_start, the final conductivity value sigma_end and the conductivity step sigma_step,
 the initial value of the electric field E_start, the final value of the electric field E_end and the electric field step E_step. 
 
-The **sweep ** method is used to solve the electrodynamics equation for the plasma torch model. This method takes the values sigma, N, R, h, E, and H_R as arguments, which correspond to the model parameters. The method returns the H and r values.
+The **sweep** method is used to solve the electrodynamics equation for the plasma torch model. This method takes the values sigma, N, R, h, E, and H_R as arguments, which correspond to the model parameters. The method returns the H and r values.
 
 The **Computingdata** method is used to calculate data. If the data.xlsx file already exists, the method loads its contents into the DataFrame df. Otherwise, the method calculates H, r, E, and sigma for each combination of sigma and E parameters and saves the results to the data.xlsx file. The method returns DataFrame df.
 
-### DataExploration class
+## DataExploration class
 
 The **DataExploration** class is used to build dependency graphs. In the __init__ method of the class, the DataFrame df is initialized. The charts method is used to build dependency graphs between all feature pairs in a df.
+
+## LRModel class
+
+The class implements linear regression and polynomial regression. You can get the metrics of each model and see the optimal degree of the polynomial. Implemented a check, if the model is trained, then the model is simply loaded and not retrained.
 
 
 
