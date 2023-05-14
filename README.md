@@ -1,7 +1,7 @@
 # Plasmatorch-LR
 
 
-# # Electromagnetic field model in high-frequency plasmatron
+## Electromagnetic field model in high-frequency plasmatron
 To model the electrical parameters of a high-frequency plasma torch, we write down the Maxwell equation. The complex form of the Maxwell equation in one dimension is given by
 <p style="text-align: center;">
 $$\Large\frac{d\dot{H}}{dr}=(\sigma + i\epsilon_0\epsilon)\dot{E}$$
